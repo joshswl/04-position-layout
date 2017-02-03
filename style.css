@@ -23,29 +23,90 @@ img {
 .section--bg-pic {
   margin: 0;
   width: 100%;
-  color: white;
 }
 
 .char-stats {
-  /*background: transparent;*/
-  width: 20rem;
   overflow: auto;
   position: fixed;
-  bottom: 7rem;
+  bottom: 5rem;
   left: 7rem;
+  color: white;
+  min-width: max-content;
 }
 
-.char-stats__av {
+.char-stats__img {
   float: left;
+  width: 7rem;
 }
 
-.char-stats__avimg {
+.char-stats__health {
+  height: 10rem;
+  width: 12rem;
   float: left;
-  width: 9rem;
+  overflow: auto;
+  position: relative;
+  top:1rem;
+  left: 0.5rem;
 }
 
 .char-stats__hb {
-  font-size: 1rem;
-  background: white;
-  float: right;
+  min-width: 4rem;
+  display: inline;
+  border-bottom: #b1b1b1 0.15rem solid;
+  padding-right: 0.4rem;
+  border-right: rgba(8,240,255,.73) 0.27rem solid;
+}
+
+.char-stats__hb2 {
+  height: 1rem;
+  width: 0.4rem;
+  background: rgba(223,223,223,.75);
+  border: rgba(255,255,255,.83) solid 0.1rem;
+  border-radius: 0.15rem;
+  margin-right: 0;
+  display: inline-block;
+}
+
+.char-stats__num {
+
+}
+
+.char-stats__num2 {
+  font-size: 2rem;
+}
+
+.middle-signs {
+
+}
+
+.red-skull {
+  text-align: center;
+}
+
+.red-skull-img {
+
+}
+
+.eliminate1 {
+
+}
+
+.eliminate1-font {
+
+}
+
+.eliminate1-white {
+
+}
+
+.eliminate2 {
+
+}
+
+.eliminate2-font {
+
+}
+
+.eliminate2-white {
+
 }
