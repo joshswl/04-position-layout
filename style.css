@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  padding: 0rem;
+  overflow: auto;
+}
+
+.section--bg-pic {
+  margin: 0;
+  width: 100%;
+  color: white;
+}
+
+.char-stats {
+  overflow: auto;
+}
+
+.char-stats__av {
+  float: left;
+}
+
+.char-stats__avsz {
+  max-width: 3;
+}
