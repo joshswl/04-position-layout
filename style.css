@@ -27,7 +27,7 @@ img {
 }
 
 .char-stats {
-  background: transparent;
+  /*background: transparent;*/
   width: 20rem;
   overflow: auto;
   position: fixed;
@@ -35,12 +35,11 @@ img {
   left: 5rem;
 }
 
-.char-stats__av {
-  width: 100%;
+/*.char-stats__av {
   float: left;
-}
+}*/
 
-.char-stats__avsz {
+.char-stats__avimg {
   float: left;
-  max-width: 4.5rem;
+  width: 9rem;
 }
