@@ -31,15 +31,21 @@ img {
   width: 20rem;
   overflow: auto;
   position: fixed;
-  bottom: 5rem;
-  left: 5rem;
+  bottom: 7rem;
+  left: 7rem;
 }
 
-/*.char-stats__av {
+.char-stats__av {
   float: left;
-}*/
+}
 
 .char-stats__avimg {
   float: left;
   width: 9rem;
+}
+
+.char-stats__hb {
+  font-size: 1rem;
+  background: white;
+  float: right;
 }
