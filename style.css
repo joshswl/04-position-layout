@@ -16,7 +16,7 @@ img {
 }
 
 .section {
-  padding: 0rem;
+  margin: 0;
   overflow: auto;
 }
 
@@ -27,13 +27,20 @@ img {
 }
 
 .char-stats {
+  background: transparent;
+  width: 20rem;
   overflow: auto;
+  position: fixed;
+  bottom: 5rem;
+  left: 5rem;
 }
 
 .char-stats__av {
+  width: 100%;
   float: left;
 }
 
 .char-stats__avsz {
-  max-width: 3;
+  float: left;
+  max-width: 4.5rem;
 }
