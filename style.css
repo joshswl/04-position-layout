@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  font-family: sans-serif;
+  font-style: italic;
 }
 
 ul {
@@ -26,7 +28,6 @@ img {
 }
 
 .char-stats {
-  overflow: auto;
   position: fixed;
   bottom: 5rem;
   left: 7rem;
@@ -43,7 +44,6 @@ img {
   height: 10rem;
   width: 12rem;
   float: left;
-  overflow: auto;
   position: relative;
   top:1rem;
   left: 0.5rem;
@@ -88,7 +88,7 @@ img {
 }
 
 .red-skull-img {
-  width: 7rem;
+  width: 5.5rem;
 
 }
 
@@ -126,4 +126,36 @@ img {
 
 .eliminate2-white {
   color: white;
+}
+
+.weapon-stats {
+  position: fixed;
+  bottom: 15%;
+  left: 80%;
+}
+
+.weapon-stats1 {
+  float: right;
+  margin-left: 7rem;
+}
+
+.weapon-stats1-img {
+  width: 8rem;
+}
+
+.weapon-stats2 {
+  position: fixed;
+  margin-left: -7rem;
+}
+
+.weapon-stats2-img {
+  width: 6rem;
+}
+
+.weapon-stats3 {
+  position: fixed;
+}
+
+.weapon-stats3-img {
+  width: 6rem;
 }
