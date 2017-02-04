@@ -88,25 +88,37 @@ img {
 }
 
 .eliminate1 {
-
+  position: fixed;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .eliminate1-font {
-
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: red;
 }
 
 .eliminate1-white {
-
+  color: white;
 }
 
 .eliminate2 {
-
+  position: fixed;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  color: white;
 }
 
 .eliminate2-font {
-
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: red;
 }
 
 .eliminate2-white {
-
+  color: white;
 }
