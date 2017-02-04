@@ -80,16 +80,21 @@ img {
 }
 
 .red-skull {
-  text-align: center;
+  position: fixed;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 .red-skull-img {
+  width: 10rem;
 
 }
 
 .eliminate1 {
   position: fixed;
-  bottom: 30%;
+  bottom: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -107,7 +112,7 @@ img {
 
 .eliminate2 {
   position: fixed;
-  bottom: 30%;
+  bottom: 25%;
   left: 50%;
   transform: translate(-50%, -90%);
   color: white;
