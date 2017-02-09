@@ -41,8 +41,6 @@ img {
 }
 
 .char-stats__health {
-  height: 10rem;
-  width: 12rem;
   float: left;
   position: relative;
   top:1rem;
@@ -51,7 +49,6 @@ img {
 
 .char-stats__hb {
   min-width: 4rem;
-  display: inline;
   border-bottom: #b1b1b1 0.15rem solid;
   padding-right: 0.4rem;
   border-right: rgba(8,240,255,.73) 0.27rem solid;
