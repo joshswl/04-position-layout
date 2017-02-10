@@ -36,7 +36,6 @@ img {
   bottom: 4rem;
   left: 6rem;
   color: white;
-  min-width: max-content;
 }
 
 .char-stats__img {
@@ -74,7 +73,7 @@ img {
 }
 
 .char-stats__num2 {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .middle-signs {
@@ -132,6 +131,20 @@ img {
   color: white;
 }
 
+.weapon-stats__num {
+  position: absolute;
+  display: flex;
+  margin-bottom: 2rem;
+  bottom: 7rem;
+  right: 6rem;
+  text-shadow: 2px 2px 2px #888888, 2px 2px 2px #888888;
+  color: white;
+}
+
+.weapon-stats__num-text {
+  font-size: 1.7rem;
+}
+
 .weapon-stats {
   position: absolute;
   display: flex;
@@ -145,6 +158,7 @@ img {
 }
 
 .weapon-stats1-img {
+  margin: 0.2rem;
   width: 4rem;
 }
 
@@ -153,6 +167,7 @@ img {
 }
 
 .weapon-stats2-img {
+  margin: 0.2rem;
   width: 4rem;
 }
 
@@ -161,14 +176,6 @@ img {
 }
 
 .weapon-stats3-img {
-  width: 8rem;
+  margin: 0.2rem;
   border-right: rgba(8,240,255,.73) 0.27rem solid;
-}
-
-.weapon-stats3__num {
-  text-shadow: 2px 2px 2px #888888, 2px 2px 2px #888888;
-}
-
-.weapon-stats3__num2 {
-  font-size: 2rem;
 }
