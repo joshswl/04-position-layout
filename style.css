@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-style: italic;
+
+  background: url('http://cdn.escapistmagazine.com/media/global/images/library/deriv/1000/1000271.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  margin: 0;
+  overflow: auto;
+}
+
+.section--bg-pic {
+  margin: 0;
+  width: 100%;
+  position: relative;
+}
+
+.char-stats {
+  position: absolute;
+  bottom: 4rem;
+  left: 6rem;
+  color: white;
+}
+
+.char-stats__img {
+  float: left;
+  width: 7rem;
+}
+
+.char-stats__health {
+  float: left;
+  position: relative;
+  top:1rem;
+  left: 0.5rem;
+}
+
+.char-stats__hb {
+  min-width: 4rem;
+  border-bottom: #b1b1b1 0.15rem solid;
+  padding-right: 0.4rem;
+  border-right: rgba(8,240,255,.73) 0.27rem solid;
+}
+
+.char-stats__hb2 {
+  height: 1rem;
+  width: 0.4rem;
+  background: rgba(223,223,223,.75);
+  border: rgba(255,255,255,.83) solid 0.1rem;
+  border-radius: 0.15rem;
+  margin-right: 0;
+  display: inline-block;
+  box-shadow: 1px 1px 1px #888;
+}
+
+.char-stats__num {
+  text-shadow: 2px 2px 2px #888888, 2px 2px 2px #888888;
+}
+
+.char-stats__num2 {
+  font-size: 1.7rem;
+}
+
+.middle-signs {
+
+}
+
+.red-skull {
+  position: absolute;
+  bottom: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.red-skull-img {
+  width: 5.5rem;
+}
+
+.eliminate1 {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.eliminate1-font {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: red;
+  text-shadow: 1px 1px 1px #888;
+}
+
+.eliminate1-white {
+  color: white;
+}
+
+.eliminate2 {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  color: white;
+}
+
+.eliminate2-font {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: red;
+  text-shadow: 1px 1px 1px #888;
+}
+
+.eliminate2-white {
+  color: white;
+}
+
+.weapon-stats__num {
+  position: absolute;
+  display: flex;
+  margin-bottom: 2rem;
+  bottom: 7rem;
+  right: 6rem;
+  text-shadow: 2px 2px 2px #888888, 2px 2px 2px #888888;
+  color: white;
+}
+
+.weapon-stats__num-text {
+  font-size: 1.7rem;
+}
+
+.weapon-stats {
+  position: absolute;
+  display: flex;
+  bottom: 4rem;
+  right: 6rem;
+  color: white;
+}
+
+.weapon-stats1 {
+
+}
+
+.weapon-stats1-img {
+  margin: 0.2rem;
+  width: 4rem;
+}
+
+.weapon-stats2 {
+
+}
+
+.weapon-stats2-img {
+  margin: 0.2rem;
+  width: 4rem;
+}
+
+.weapon-stats3 {
+
+}
+
+.weapon-stats3-img {
+  margin: 0.2rem;
+  border-right: rgba(8,240,255,.73) 0.27rem solid;
+}
